@@ -23,9 +23,9 @@ El proyecto sigue una arquitectura modular y escalable, utilizando **MongoDB** c
 
 El proyecto sigue una **arquitectura en capas (Layered Architecture)**, organizada de la siguiente manera:
 
-controllers/ → Controladores con la lógica de negocio
-routes/ → Definición de endpoints y rutas HTTP
-models/ → Modelos de datos y esquemas de MongoDB (Mongoose)
+controllers/ → Controladores con la lógica de negocio  
+routes/ → Definición de endpoints y rutas HTTP  
+models/ → Modelos de datos y esquemas de MongoDB (Mongoose)  
 middleware/ → Middlewares de autenticación y validaciones
 
 
@@ -116,7 +116,7 @@ Ruta de acceso: http://localhost:3000/api-docs
 
 El backend permite solicitudes desde el frontend configurado mediante CORS:
 
-- Origen permitido: http://localhost:4200
+- Origen permitido: http://localhost:4200  
 Métodos habilitados:
 - GET
 - POST
@@ -146,5 +146,3 @@ Las variables de entorno se gestionan mediante un archivo `.env` (no incluido en
 ```env
 MONGO_URI=mongodb://localhost:27017
 JWT_SECRET=your_secret_key
-
-
