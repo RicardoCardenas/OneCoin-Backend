@@ -116,7 +116,8 @@ Ruta de acceso: http://localhost:3000/api-docs
 
 El backend permite solicitudes desde el frontend configurado mediante CORS:
 
-- Origen permitido: http://localhost:4200  
+Origen permitido: http://localhost:4200  
+  
 Métodos habilitados:
 - GET
 - POST
